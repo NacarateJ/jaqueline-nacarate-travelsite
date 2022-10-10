@@ -16,7 +16,7 @@ html {
   position: fixed;
   z-index: 999999;
   display: flex;
-  padding: 0 4rem;
+  padding: 2rem 4rem;
   background-color: #ffffff;
   justify-content: space-between;
   width: 100vw;
@@ -33,7 +33,7 @@ html {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  width: 40%;
+  width: 60%;
 }
 
 .header__menu a {
@@ -52,9 +52,99 @@ html {
   border-bottom: 3px solid #db7a4e;
 }
 
+/*banner*/
+.hero_banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fefaf5;
+  padding: 7rem 4rem 3rem 4rem;
+  height: 100vh;
+}
+
+.hero__world-map-img {
+  max-width: 25rem;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hero__world-map-img:hover {
+  max-width: 28rem;
+  transform: rotate(360deg);
+}
+
+.hero__slogan-text {
+  color: #335576;
+  text-align: left;
+}
+
+.destination__container input[type="text"] {
+  padding-left: 40px;
+}
+
+.destination__container {
+  position: relative;
+}
+
+.destination__container i {
+  position: absolute;
+  left: 20px;
+  top: 11px;
+  color: #335576;
+}
+
+.dates__containers input[type="text"] {
+  padding-left: 40px;
+}
+
+.from__container {
+  position: relative;
+}
+
+.from__container i {
+  position: absolute;
+  left: 20px;
+  top: 11px;
+  color: #335576;
+}
+
+.to__container {
+  position: relative;
+}
+
+.to__container i {
+  position: absolute;
+  left: 20px;
+  top: 11px;
+  color: #335576;
+}
+
+input[type="text"] {
+  width: 80%;
+  border: 2px solid #db7a4e;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.dates__containers {
+  display: flex;
+  width: 87%;
+  margin-top: 1rem;
+}
+
+.button__search {
+  color: #fefaf5;
+  background-color: #db7a4e;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: 0;
+  margin-top: 1rem;
+  margin-left: 8.5rem;
+}
+
 /*footer*/
 .footer__container {
-  background-color: #fefaf5;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;

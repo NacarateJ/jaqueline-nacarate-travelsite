@@ -1,3 +1,4 @@
+body,
 html {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -14,9 +15,10 @@ html {
 /*banner*/
 .hero_banner-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   background-color: #fefaf5;
-  padding: 8rem 4rem 4rem 4rem;
+  padding: 7rem 4rem 3rem 4rem;
 }
 
 .hero__world-map-img {
@@ -26,50 +28,79 @@ html {
 
 .hero__slogan-text {
   color: #335576;
+  text-align: left;
+  inline-size: 30rem;
 }
 
 .hero-slogan-paragraph {
   color: #335576;
   font-size: small;
+  text-align: left;
+  inline-size: 31rem;
 }
 
 .button__get-started {
   color: #fefaf5;
   background-color: #db7a4e;
   border-radius: 30px;
-  padding: 5px 30px;
+  padding: 10px 30px;
   border: 0;
+  margin-top: 1rem;
 }
 
 /*recommendations section*/
 
-.text-recommendations {
-  color: #335576;
-  margin-left: 4rem;
+.recommendations__container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.recommendations {
+.text-recommendations {
+  padding-left: 1.5rem;
+  color: #335576;
+}
+
+.cards__container {
   display: flex;
-  position: relative;
   justify-content: center;
+  gap: 2rem;
 }
 
 .card__img {
-  margin: 2rem;
+  margin-block: 2rem;
   min-width: 250px;
   max-width: 280px;
   min-height: 440px;
   max-height: 460px;
   border-radius: 5px;
-  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.card__img:hover {
+  transform: scale(1.2);
+}
+
+.card__img:hover + .destination-name {
+  right: 60px;
+  bottom: 180px;
+  font-size: 2rem;
+  color: #335576;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  border-radius: 50px;
 }
 
 .card {
   position: relative;
 }
+
 .destination-name {
   color: #fefaf5;
   position: absolute;
   bottom: 2rem;
-  right: 3rem;
+  right: 1rem;
 }
