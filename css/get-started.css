@@ -59,18 +59,22 @@ html {
   align-items: center;
   background-color: #fefaf5;
   padding: 7rem 4rem 3rem 4rem;
-  height: 100vh;
+  height: 85vh;
 }
 
 .hero__world-map-img {
   max-width: 25rem;
   position: relative;
-  transition: 0.5s;
+  animation: rotation 20s infinite linear;
 }
 
-.hero__world-map-img:hover {
-  max-width: 28rem;
-  transform: rotate(360deg);
+@keyframes rotation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 .hero__slogan-text {
@@ -158,7 +162,7 @@ input[type="text"] {
 
 .info__detail {
   color: #db7a4e;
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 
 .info__text {
