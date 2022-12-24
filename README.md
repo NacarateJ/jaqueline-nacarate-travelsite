@@ -10,6 +10,9 @@ The site has 5 Pages:
 * 3 Destinations Pages (Iceland, Greece, Hawaii) - each page has 3 sections: navigation bar (Same as Home Page), 3 Itinerary Cards for a 3 Day trip (Friday, Saturday,Sunday) and footer (Same as Home Page);
 * Get Started Page - it has 3 sections: navigation bar (Same as Home Page), a form where the user can select a destination and travel dates that would be used to begin the booking process, and footer (Same as Home Page);
 
+## Tech Stack
+* HTML
+* CSS
 
 ## Demo
 
