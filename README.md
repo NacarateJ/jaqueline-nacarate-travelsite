@@ -14,19 +14,15 @@ The site has 5 Pages:
 * HTML
 * CSS
 
+## Installation:
+1. To install and run the project you will need to clone or dowload the file - [jaqueline-nacarate-travelsite ](https://github.com/NacarateJ/jaqueline-nacarate-travelsite);
+2. Enable your ```Live Server Extension``` in your Status Bar In VS Code and go live.
+
 ## Demo
 
 <div align="center" width="426" >
-  
-
-
-
 
 https://user-images.githubusercontent.com/114256348/209627414-12940d65-eeb8-443f-9d70-f16d22888387.mp4
 
-
-
-
-  
   </div>
 
