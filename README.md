@@ -13,6 +13,7 @@ The site has 5 Pages:
 ## Tech Stack
 * HTML
 * CSS
+* SASS
 
 ## Installation:
 1. To install and run the project you will need to clone or dowload the file - [jaqueline-nacarate-travelsite ](https://github.com/NacarateJ/jaqueline-nacarate-travelsite);
